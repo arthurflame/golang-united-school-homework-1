@@ -9,6 +9,6 @@ func TestGetMessage(t *testing.T) {
 	got := GetMessage()
 
 	if want != got {
-		t.Errorf("GetMessage() = %v, want %v", got, want)
+		t.Errorf("GetMessage() = %v, want %v", want, got)
 	}
 }
